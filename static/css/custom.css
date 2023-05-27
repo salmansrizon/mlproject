@@ -2,7 +2,8 @@
 
 body {
     padding: 100px 0;
-    background: #ecf0f4;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     width: 100%;
     height: 100%;
     font-size: 18px;
@@ -23,7 +24,7 @@ h1 {
 }
 
 .header {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -35,7 +36,7 @@ h1 {
     background: rgba(255, 255, 255, 1);
     width: 100%;
     max-width: 850px;
-    padding: 50px;
+    padding: 20px;
     margin: 0 auto;
     position: relative;
     -webkit-border-radius: 10px;

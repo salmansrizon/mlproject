@@ -3,11 +3,11 @@
 {% block content %}
 <div class="container">
     <div class="login form-wrap">
-
         <form id="survey-form" action="{{ url_for('predict_datapoint')}}" method="post">
             <h1 class="header">
                 <legend>Student Exam Performance Prediction</legend>
             </h1>
+
             <div class="row">
                 <div class="mb-3">
                     <label class="form-label">Gender</label>
@@ -103,9 +103,10 @@
                 </div>
             </div>
         </form>
-        <h2>
-            THE prediction is {{results}}
-        </h2>
+        <div class="modal-dialog modal-dialog-centered">
+            <h3> Predicted Score is {{results}}
+            </h3>
+        </div>
     </div>
 </div>
 {% endblock %}
